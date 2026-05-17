@@ -123,7 +123,17 @@ Options:
 
 - [ ] Env: `SEC_INSTITUTIONAL_PROVIDER=fixture|edgar|sec_api`.
 
-### Phase 4 — Ops (pending)
+### Phase 4 — Telegram alerts (OpenClaw) — partial
+
+- [x] Spec: `docs/TELEGRAM_ALERTS.md` + `config/x_watchlist.json`
+- [x] Script: `scripts/telegram_institutional_digest.py` (13F-style from API)
+- [ ] OpenClaw cron → forward digest to Telegram (weekdays 8am ET)
+- [ ] Dedupe: only alert when QoQ holder list **changes** vs last run
+- [ ] **Price targets:** analyst API or X parse; PT raised/lowered/initiated
+- [ ] **X.com:** search + influencer accounts from `config/x_watchlist.json`
+- [ ] Store PT state in `.local/pt_state.json` on VM (gitignored)
+
+### Phase 5 — Ops (pending)
 
 - [ ] OpenClaw cron: daily insider digest via local API.
 - [ ] `docs/oracle-deploy.md` — Tailscale, compose prod, env secrets.
@@ -139,6 +149,8 @@ Options:
 | CIK on symbols | High | Prerequisite |
 | Production Next build in Docker | Medium | Oracle / always-on |
 | Live 13F institutional | Medium–Low | Bulk or paid API |
+| Telegram institutional + PT alerts | Medium | OpenClaw + `TELEGRAM_ALERTS.md` |
+| Analyst price targets API | Medium | Not in 13F; separate provider |
 | Manual “Fit 1Y” zoom preset | Low | Partially covered by 1D default 252 bars |
 | Click-two-points Fib on chart | Low | Alternative to numeric high/low |
 | Earnings live (not fixture) | Low | Separate from SEC |

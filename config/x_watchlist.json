@@ -1,0 +1,17 @@
+{
+  "_comment": "X.com accounts for OpenClaw to check for 13F / PT / macro chatter. Add handles without @.",
+  "accounts": [
+    { "handle": "TheLongInvest", "tags": ["13f", "institutional", "long-term"] },
+    { "handle": "investingwithac", "tags": ["13f", "institutional", "flow"] },
+    { "handle": "fundstrat", "tags": ["macro", "crypto", "BMNR", "ETH"] },
+    { "handle": "CNBC", "tags": ["news", "breaking"] },
+    { "handle": "DeItaone", "tags": ["news", "headlines"] }
+  ],
+  "search_queries_per_ticker": [
+    "{TICKER} 13F",
+    "{TICKER} institutional",
+    "{TICKER} price target",
+    "{TICKER} PT raised",
+    "{TICKER} upgrade downgrade"
+  ]
+}

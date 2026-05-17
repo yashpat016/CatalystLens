@@ -209,7 +209,8 @@ Example cron idea: morning message with OSCR/AAPL insider + summary via curl + f
 
 - [ ] `docs/oracle-deploy.md` — Tailscale + compose prod
 - [ ] Next.js production build in Docker (`next build` / `next start`)
-- [ ] OpenClaw cron: watchlist digest via local API
+- [ ] OpenClaw cron: watchlist digest via local API — **see `docs/TELEGRAM_ALERTS.md`**
+- [ ] Telegram: institutional QoQ + PT raise/lower + X corroboration
 
 ### Medium — institutional (13F)
 
@@ -263,6 +264,20 @@ PYTHONPATH=apps/api:. python scripts/seed_symbols.py
 ## 9. One-message summary for Telegram
 
 > CatalystLens: public repo github.com/yashpat016/CatalystLens — research UI for my watchlist. Clone on Oracle, create chmod 600 `.env` with Alpaca KEY+SECRET (not in git). `docker compose up -d`, health at :8000. UI :3000 via Tailscale only. Read README.md + docs/ROADMAP.md + docs/OPENCLAW_BRIEFING.md. TODO: live SEC Form 4, CIK seed, prod Next build. Do not expose or log API secrets.
+
+## 9b. Telegram alerts (institutional + PT + X)
+
+Full spec + copy-paste OpenClaw task: **`docs/TELEGRAM_ALERTS.md`**
+
+Quick run on VM:
+
+```bash
+chmod +x scripts/run_telegram_digest.sh
+./scripts/run_telegram_digest.sh
+./scripts/run_telegram_digest.sh --ticker OSCR
+```
+
+OpenClaw forwards stdout to Telegram. Price targets need Phase C (analyst API or X parse); 13F today is fixture until live SEC.
 
 ## 10. Future ideas
 
