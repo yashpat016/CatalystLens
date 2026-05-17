@@ -266,4 +266,4 @@ PYTHONPATH=apps/api:. python scripts/seed_symbols.py
 
 ## 10. Future ideas
 
-Think like a pro trader/investor like @TheLongInvest on X.com or others like @investingwithac and think about what might also be useful here. I am trying to build a dashboard where investors or traders can come and view to make decisiions about investing/trading. Think about ways to improve this to add value but not clutter. Not sure if this helps, but maybe, say, for example, something like tracking Twitter accounts of Tom Lee for BMNR and Ethereum or CNBC or news channels, etc. What do you think deliberate and make educated decisions.
+Think like a pro trader/investor like @TheLongInvest on X.com or others like @investingwithac and think about what might also be useful here. I am trying to build a dashboard where investors or traders can come and view to make decisiions about investing/trading. Think about ways to improve this to add value but not clutter. Not sure if this helps, but maybe, say, for example, something like tracking Twitter accounts of Tom Lee for BMNR and Ethereum or CNBC or news channels, etc. Whatever you think, deliberate well and make educated decisions.
