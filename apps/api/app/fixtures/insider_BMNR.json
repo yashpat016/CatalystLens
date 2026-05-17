@@ -1,0 +1,123 @@
+{
+  "ticker": "BMNR",
+  "source": "sec_form4_fixture",
+  "data_as_of": "2026-05-16",
+  "data_notes": [
+    "Modeled after SEC Form 4 insider filings (demo fixture, not live EDGAR).",
+    "CEO names are taken from config/watchlist.json (ceo_name) \u2014 update there after leadership changes.",
+    "Highlights CEO and C-suite open-market buys/sells when present in fixture.",
+    "Prices are approximate marks at transaction date for research UI only."
+  ],
+  "transactions": [
+    {
+      "transaction_date": "2026-04-26",
+      "filing_date": "2026-04-28",
+      "insider_name": "Justin Sonnenfeld",
+      "role": "CEO",
+      "transaction_type": "sell",
+      "shares": 48858,
+      "price_usd": "276.80",
+      "value_usd": "13524004.36",
+      "shares_owned_after": 1905462
+    },
+    {
+      "transaction_date": "2026-04-15",
+      "filing_date": "2026-04-18",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 16256,
+      "price_usd": "350.88",
+      "value_usd": "5703865.24",
+      "shares_owned_after": 552704
+    },
+    {
+      "transaction_date": "2026-03-16",
+      "filing_date": "2026-03-17",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 19277,
+      "price_usd": "305.83",
+      "value_usd": "5895511.54",
+      "shares_owned_after": 559033
+    },
+    {
+      "transaction_date": "2026-02-12",
+      "filing_date": "2026-02-15",
+      "insider_name": "Justin Sonnenfeld",
+      "role": "CEO",
+      "transaction_type": "sell",
+      "shares": 22384,
+      "price_usd": "340.81",
+      "value_usd": "7628693.04",
+      "shares_owned_after": 201456
+    },
+    {
+      "transaction_date": "2026-01-14",
+      "filing_date": "2026-01-16",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 19851,
+      "price_usd": "297.06",
+      "value_usd": "5896893.32",
+      "shares_owned_after": 476424
+    },
+    {
+      "transaction_date": "2025-12-11",
+      "filing_date": "2025-12-13",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 15798,
+      "price_usd": "314.00",
+      "value_usd": "4960590.77",
+      "shares_owned_after": 537132
+    },
+    {
+      "transaction_date": "2025-11-02",
+      "filing_date": "2025-11-05",
+      "insider_name": "Justin Sonnenfeld",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 58014,
+      "price_usd": "348.35",
+      "value_usd": "20208965.56",
+      "shares_owned_after": 2204532
+    },
+    {
+      "transaction_date": "2025-08-05",
+      "filing_date": "2025-08-07",
+      "insider_name": "Justin Sonnenfeld",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 74334,
+      "price_usd": "281.65",
+      "value_usd": "20935963.20",
+      "shares_owned_after": 1263678
+    },
+    {
+      "transaction_date": "2025-07-05",
+      "filing_date": "2025-07-07",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 4721,
+      "price_usd": "253.22",
+      "value_usd": "1195450.91",
+      "shares_owned_after": 61373
+    },
+    {
+      "transaction_date": "2025-06-17",
+      "filing_date": "2025-06-20",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 2023,
+      "price_usd": "348.55",
+      "value_usd": "705112.13",
+      "shares_owned_after": 20230
+    }
+  ]
+}

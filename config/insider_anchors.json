@@ -1,0 +1,16 @@
+{
+  "_comment": "Real events merged into insider fixtures. Verify on SEC before treating as authoritative.",
+  "OSCR": [
+    {
+      "transaction_date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "insider_name": "Mark Bertolini",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 1000000,
+      "price_usd": "11.92",
+      "value_usd": "11920000.00",
+      "shares_owned_after": 10196876
+    }
+  ]
+}

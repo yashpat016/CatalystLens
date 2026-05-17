@@ -1,0 +1,20 @@
+[
+  { "ticker": "AAPL", "exchange": "NASDAQ", "company_name": "Apple Inc.", "ceo_name": "Tim Cook" },
+  { "ticker": "TSLA", "exchange": "NASDAQ", "company_name": "Tesla, Inc.", "ceo_name": "Elon Musk" },
+  { "ticker": "NVDA", "exchange": "NASDAQ", "company_name": "NVIDIA Corporation", "ceo_name": "Jensen Huang" },
+  { "ticker": "ETH", "exchange": "CRYPTO", "company_name": "Ethereum", "ceo_name": "Aya Miyaguchi" },
+  { "ticker": "BTC", "exchange": "CRYPTO", "company_name": "Bitcoin", "ceo_name": "—" },
+  { "ticker": "JD", "exchange": "NASDAQ", "company_name": "JD.com, Inc.", "ceo_name": "Lei Xu" },
+  { "ticker": "BMNR", "exchange": "AMEX", "company_name": "BitMine Immersion Technologies, Inc.", "ceo_name": "Justin Sonnenfeld" },
+  { "ticker": "OSCR", "exchange": "NYSE", "company_name": "Oscar Health, Inc.", "ceo_name": "Mark Bertolini" },
+  { "ticker": "BABA", "exchange": "NYSE", "company_name": "Alibaba Group Holding Ltd", "ceo_name": "Eddie Yongming Wu" },
+  { "ticker": "NVO", "exchange": "NYSE", "company_name": "Novo Nordisk A/S", "ceo_name": "Lars Fruergaard Jørgensen" },
+  { "ticker": "QS", "exchange": "NYSE", "company_name": "QuantumScape Corporation", "ceo_name": "Jagdeep Singh" },
+  { "ticker": "ADUR", "exchange": "NASDAQ", "company_name": "Aduro Clean Technologies Inc.", "ceo_name": "Ofer Vicus" },
+  { "ticker": "ASTS", "exchange": "NASDAQ", "company_name": "AST SpaceMobile, Inc.", "ceo_name": "Abel Avellan" },
+  { "ticker": "HIMS", "exchange": "NYSE", "company_name": "Hims & Hers Health, Inc.", "ceo_name": "Andrew Dudum" },
+  { "ticker": "NBIS", "exchange": "NASDAQ", "company_name": "Nebius Group N.V.", "ceo_name": "Arkady Volozh" },
+  { "ticker": "ZETA", "exchange": "NYSE", "company_name": "Zeta Global Holdings Corp.", "ceo_name": "David Steinberg" },
+  { "ticker": "SOFI", "exchange": "NASDAQ", "company_name": "SoFi Technologies, Inc.", "ceo_name": "Anthony Noto" },
+  { "ticker": "IREN", "exchange": "NASDAQ", "company_name": "IREN Ltd", "ceo_name": "Daniel Roberts" }
+]

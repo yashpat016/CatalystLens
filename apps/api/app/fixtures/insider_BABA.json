@@ -1,0 +1,123 @@
+{
+  "ticker": "BABA",
+  "source": "sec_form4_fixture",
+  "data_as_of": "2026-05-16",
+  "data_notes": [
+    "Modeled after SEC Form 4 insider filings (demo fixture, not live EDGAR).",
+    "CEO names are taken from config/watchlist.json (ceo_name) \u2014 update there after leadership changes.",
+    "Highlights CEO and C-suite open-market buys/sells when present in fixture.",
+    "Prices are approximate marks at transaction date for research UI only."
+  ],
+  "transactions": [
+    {
+      "transaction_date": "2026-05-09",
+      "filing_date": "2026-05-12",
+      "insider_name": "Eddie Yongming Wu",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 64286,
+      "price_usd": "320.20",
+      "value_usd": "20584542.80",
+      "shares_owned_after": 1735722
+    },
+    {
+      "transaction_date": "2026-04-05",
+      "filing_date": "2026-04-08",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 11290,
+      "price_usd": "275.11",
+      "value_usd": "3106018.02",
+      "shares_owned_after": 429020
+    },
+    {
+      "transaction_date": "2026-02-26",
+      "filing_date": "2026-02-28",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 4081,
+      "price_usd": "292.42",
+      "value_usd": "1193353.29",
+      "shares_owned_after": 85701
+    },
+    {
+      "transaction_date": "2026-02-06",
+      "filing_date": "2026-02-09",
+      "insider_name": "Eddie Yongming Wu",
+      "role": "CEO",
+      "transaction_type": "sell",
+      "shares": 38519,
+      "price_usd": "284.11",
+      "value_usd": "10943466.25",
+      "shares_owned_after": 1502241
+    },
+    {
+      "transaction_date": "2026-01-02",
+      "filing_date": "2026-01-03",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 18300,
+      "price_usd": "323.39",
+      "value_usd": "5918077.66",
+      "shares_owned_after": 439200
+    },
+    {
+      "transaction_date": "2025-12-04",
+      "filing_date": "2025-12-05",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 20686,
+      "price_usd": "260.29",
+      "value_usd": "5384298.56",
+      "shares_owned_after": 475778
+    },
+    {
+      "transaction_date": "2025-11-17",
+      "filing_date": "2025-11-20",
+      "insider_name": "Eddie Yongming Wu",
+      "role": "CEO",
+      "transaction_type": "sell",
+      "shares": 41800,
+      "price_usd": "338.68",
+      "value_usd": "14156883.01",
+      "shares_owned_after": 418000
+    },
+    {
+      "transaction_date": "2025-09-15",
+      "filing_date": "2025-09-18",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 15752,
+      "price_usd": "344.72",
+      "value_usd": "5430023.58",
+      "shares_owned_after": 157520
+    },
+    {
+      "transaction_date": "2025-08-19",
+      "filing_date": "2025-08-22",
+      "insider_name": "Eddie Yongming Wu",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 21767,
+      "price_usd": "286.46",
+      "value_usd": "6235285.80",
+      "shares_owned_after": 740078
+    },
+    {
+      "transaction_date": "2025-07-01",
+      "filing_date": "2025-07-04",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 12286,
+      "price_usd": "296.02",
+      "value_usd": "3636934.61",
+      "shares_owned_after": 159718
+    }
+  ]
+}

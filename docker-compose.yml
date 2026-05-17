@@ -1,0 +1,85 @@
+name: catalystlens
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: catalystlens-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-catalystlens}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-catalystlens}
+      POSTGRES_DB: ${POSTGRES_DB:-catalystlens}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-catalystlens} -d ${POSTGRES_DB:-catalystlens}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: catalystlens-redis
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    container_name: catalystlens-api
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-catalystlens}:${POSTGRES_PASSWORD:-catalystlens}@postgres:5432/${POSTGRES_DB:-catalystlens}
+      REDIS_URL: redis://redis:6379/0
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      MARKET_DATA_PROVIDER: ${MARKET_DATA_PROVIDER:-fixture}
+      ALPACA_API_KEY_ID: ${ALPACA_API_KEY_ID:-}
+      ALPACA_API_SECRET_KEY: ${ALPACA_API_SECRET_KEY:-}
+      ALPACA_DATA_BASE_URL: ${ALPACA_DATA_BASE_URL:-https://data.alpaca.markets}
+      PYTHONPATH: /app
+      PYTHONUNBUFFERED: "1"
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./apps/api:/app
+      - ./scripts:/app/scripts
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: catalystlens-web
+    environment:
+      # Browser-facing URL (exposed to client bundles).
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000}
+      # Internal URL used by Next.js server components inside the compose network.
+      API_BASE_URL_INTERNAL: http://api:8000
+      NODE_ENV: development
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    volumes:
+      - ./apps/web:/app
+      - web_node_modules:/app/node_modules
+      - web_next_cache:/app/.next
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  web_node_modules:
+  web_next_cache:

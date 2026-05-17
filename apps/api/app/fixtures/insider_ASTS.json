@@ -1,0 +1,101 @@
+{
+  "ticker": "ASTS",
+  "source": "sec_form4_fixture",
+  "data_as_of": "2026-05-16",
+  "data_notes": [
+    "Modeled after SEC Form 4 insider filings (demo fixture, not live EDGAR).",
+    "CEO names are taken from config/watchlist.json (ceo_name) \u2014 update there after leadership changes.",
+    "Highlights CEO and C-suite open-market buys/sells when present in fixture.",
+    "Prices are approximate marks at transaction date for research UI only."
+  ],
+  "transactions": [
+    {
+      "transaction_date": "2026-05-16",
+      "filing_date": "2026-05-19",
+      "insider_name": "Abel Avellan",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 38705,
+      "price_usd": "137.09",
+      "value_usd": "5306245.87",
+      "shares_owned_after": 1470790
+    },
+    {
+      "transaction_date": "2026-03-14",
+      "filing_date": "2026-03-16",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 22747,
+      "price_usd": "134.28",
+      "value_usd": "3054374.78",
+      "shares_owned_after": 841639
+    },
+    {
+      "transaction_date": "2026-02-03",
+      "filing_date": "2026-02-04",
+      "insider_name": "Abel Avellan",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 50170,
+      "price_usd": "136.86",
+      "value_usd": "6866348.15",
+      "shares_owned_after": 1655610
+    },
+    {
+      "transaction_date": "2025-12-08",
+      "filing_date": "2025-12-11",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 16993,
+      "price_usd": "131.78",
+      "value_usd": "2239264.64",
+      "shares_owned_after": 611748
+    },
+    {
+      "transaction_date": "2025-10-28",
+      "filing_date": "2025-10-31",
+      "insider_name": "Abel Avellan",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 13212,
+      "price_usd": "145.44",
+      "value_usd": "1921586.09",
+      "shares_owned_after": 369936
+    },
+    {
+      "transaction_date": "2025-09-17",
+      "filing_date": "2025-09-19",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 6018,
+      "price_usd": "147.24",
+      "value_usd": "886119.99",
+      "shares_owned_after": 216648
+    },
+    {
+      "transaction_date": "2025-08-09",
+      "filing_date": "2025-08-11",
+      "insider_name": "Abel Avellan",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 61882,
+      "price_usd": "159.19",
+      "value_usd": "9850816.77",
+      "shares_owned_after": 742584
+    },
+    {
+      "transaction_date": "2025-06-12",
+      "filing_date": "2025-06-13",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 8170,
+      "price_usd": "137.34",
+      "value_usd": "1122063.56",
+      "shares_owned_after": 171570
+    }
+  ]
+}

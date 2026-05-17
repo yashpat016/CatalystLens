@@ -1,0 +1,101 @@
+{
+  "ticker": "BTC",
+  "source": "sec_form4_fixture",
+  "data_as_of": "2026-05-16",
+  "data_notes": [
+    "Modeled after SEC Form 4 insider filings (demo fixture, not live EDGAR).",
+    "CEO names are taken from config/watchlist.json (ceo_name) \u2014 update there after leadership changes.",
+    "Highlights CEO and C-suite open-market buys/sells when present in fixture.",
+    "Prices are approximate marks at transaction date for research UI only."
+  ],
+  "transactions": [
+    {
+      "transaction_date": "2026-05-06",
+      "filing_date": "2026-05-09",
+      "insider_name": "Bitcoin CEO",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 75097,
+      "price_usd": "338.31",
+      "value_usd": "25406009.53",
+      "shares_owned_after": 1276649
+    },
+    {
+      "transaction_date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "insider_name": "Chief Financial Officer",
+      "role": "CFO",
+      "transaction_type": "buy",
+      "shares": 5414,
+      "price_usd": "380.67",
+      "value_usd": "2060927.03",
+      "shares_owned_after": 54140
+    },
+    {
+      "transaction_date": "2026-02-10",
+      "filing_date": "2026-02-12",
+      "insider_name": "Bitcoin CEO",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 70652,
+      "price_usd": "378.48",
+      "value_usd": "26740346.34",
+      "shares_owned_after": 1624996
+    },
+    {
+      "transaction_date": "2025-12-03",
+      "filing_date": "2025-12-06",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 17094,
+      "price_usd": "385.46",
+      "value_usd": "6588981.48",
+      "shares_owned_after": 615384
+    },
+    {
+      "transaction_date": "2025-10-30",
+      "filing_date": "2025-11-02",
+      "insider_name": "Bitcoin CEO",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 23600,
+      "price_usd": "404.69",
+      "value_usd": "9550596.70",
+      "shares_owned_after": 424800
+    },
+    {
+      "transaction_date": "2025-09-02",
+      "filing_date": "2025-09-03",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "sell",
+      "shares": 21302,
+      "price_usd": "363.46",
+      "value_usd": "7742515.00",
+      "shares_owned_after": 127812
+    },
+    {
+      "transaction_date": "2025-08-13",
+      "filing_date": "2025-08-16",
+      "insider_name": "Bitcoin CEO",
+      "role": "CEO",
+      "transaction_type": "buy",
+      "shares": 54197,
+      "price_usd": "348.78",
+      "value_usd": "18902605.86",
+      "shares_owned_after": 1463319
+    },
+    {
+      "transaction_date": "2025-06-07",
+      "filing_date": "2025-06-08",
+      "insider_name": "Director",
+      "role": "Director",
+      "transaction_type": "buy",
+      "shares": 24577,
+      "price_usd": "321.88",
+      "value_usd": "7910904.55",
+      "shares_owned_after": 491540
+    }
+  ]
+}

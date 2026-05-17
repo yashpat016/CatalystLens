@@ -1,0 +1,192 @@
+{
+  "ticker": "ASTS",
+  "company_name": "AST SpaceMobile, Inc.",
+  "source": "fixture_sec_13f_hr",
+  "data_as_of": "2026-02-28",
+  "filed_through": "2026-04-11",
+  "data_notes": [
+    "Source model: SEC Form 13F-HR (quarterly institutional holdings).",
+    "Filings lag the quarter end by up to ~45 days; this is not real-time flow.",
+    "SEC filings report shares and market value at quarter end, not trade tickets.",
+    "implied_position_price_usd = market_value \u00f7 shares (quarter-end mark, not cost basis).",
+    "implied_flow_price_usd = value_change \u00f7 shares_change when a manager added or trimmed.",
+    "Demo fixture \u2014 not sourced from live SEC filings."
+  ],
+  "aggregate_flow": "net_buying",
+  "net_shares_change_qoq": 41494942,
+  "net_value_change_usd": "4613867162",
+  "holders": [
+    {
+      "manager_name": "Northern Trust Corp",
+      "cik": "0000073124",
+      "shares": 396479295,
+      "market_value_usd": "44648768581",
+      "shares_change_qoq": -41254623,
+      "value_change_usd": "-4438233829",
+      "activity": "decreased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "107.58",
+      "pct_of_outstanding": "7.211",
+      "filing_date": "2026-04-01"
+    },
+    {
+      "manager_name": "Morgan Stanley",
+      "cik": "0000895421",
+      "shares": 350159458,
+      "market_value_usd": "39432547434",
+      "shares_change_qoq": -1899761,
+      "value_change_usd": "-209495739",
+      "activity": "decreased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "110.27",
+      "pct_of_outstanding": "6.368",
+      "filing_date": "2026-03-30"
+    },
+    {
+      "manager_name": "Geode Capital Management, L.L.C.",
+      "cik": "0001214717",
+      "shares": 342114578,
+      "market_value_usd": "38526588435",
+      "shares_change_qoq": 5920161,
+      "value_change_usd": "688858487",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "116.36",
+      "pct_of_outstanding": "6.222",
+      "filing_date": "2026-04-05"
+    },
+    {
+      "manager_name": "Goldman Sachs Group Inc",
+      "cik": "0000886982",
+      "shares": 302681664,
+      "market_value_usd": "34085925142",
+      "shares_change_qoq": 31710707,
+      "value_change_usd": "3428149882",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "108.11",
+      "pct_of_outstanding": "5.505",
+      "filing_date": "2026-04-02"
+    },
+    {
+      "manager_name": "State Street Corp",
+      "cik": "0000093751",
+      "shares": 256156743,
+      "market_value_usd": "28846608847",
+      "shares_change_qoq": -24148925,
+      "value_change_usd": "-2699323832",
+      "activity": "decreased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "111.78",
+      "pct_of_outstanding": "4.659",
+      "filing_date": "2026-04-10"
+    },
+    {
+      "manager_name": "Fidelity Management & Research Co LLC",
+      "cik": "0000315066",
+      "shares": 244156530,
+      "market_value_usd": "27495227476",
+      "shares_change_qoq": 23688945,
+      "value_change_usd": "2567800163",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "108.40",
+      "pct_of_outstanding": "4.440",
+      "filing_date": "2026-04-07"
+    },
+    {
+      "manager_name": "Bank of America Corp /DE/",
+      "cik": "0000070858",
+      "shares": 241708453,
+      "market_value_usd": "27219541898",
+      "shares_change_qoq": 28621707,
+      "value_change_usd": "3117824774",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "108.93",
+      "pct_of_outstanding": "4.396",
+      "filing_date": "2026-04-01"
+    },
+    {
+      "manager_name": "JPMorgan Chase & Co",
+      "cik": "0000019617",
+      "shares": 202182551,
+      "market_value_usd": "22768406937",
+      "shares_change_qoq": -4173499,
+      "value_change_usd": "-469702729",
+      "activity": "decreased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "112.54",
+      "pct_of_outstanding": "3.677",
+      "filing_date": "2026-04-05"
+    },
+    {
+      "manager_name": "Vanguard Group Inc",
+      "cik": "0000102909",
+      "shares": 200959262,
+      "market_value_usd": "22630648552",
+      "shares_change_qoq": 6661427,
+      "value_change_usd": "758624539",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "113.88",
+      "pct_of_outstanding": "3.655",
+      "filing_date": "2026-04-01"
+    },
+    {
+      "manager_name": "BlackRock Inc.",
+      "cik": "0001364742",
+      "shares": 196155966,
+      "market_value_usd": "22089734425",
+      "shares_change_qoq": 16368803,
+      "value_change_usd": "1869365446",
+      "activity": "increased",
+      "implied_position_price_usd": "112.61",
+      "implied_flow_price_usd": "114.20",
+      "pct_of_outstanding": "3.567",
+      "filing_date": "2026-04-03"
+    }
+  ],
+  "quarter_history": [
+    {
+      "period_end": "2024-12-31",
+      "filed_through": "2025-02-14",
+      "holder_count": 10,
+      "total_shares": 2732754500,
+      "total_market_value_usd": "318394899075",
+      "net_shares_change_qoq": 1118428,
+      "net_value_change_usd": "48328624",
+      "aggregate_flow": "net_buying"
+    },
+    {
+      "period_end": "2025-06-30",
+      "filed_through": "2025-08-14",
+      "holder_count": 10,
+      "total_shares": 2732754500,
+      "total_market_value_usd": "297024575298",
+      "net_shares_change_qoq": 50466760,
+      "net_value_change_usd": "5576472103",
+      "aggregate_flow": "net_buying"
+    },
+    {
+      "period_end": "2025-12-31",
+      "filed_through": "2026-02-14",
+      "holder_count": 10,
+      "total_shares": 2732754500,
+      "total_market_value_usd": "294947846131",
+      "net_shares_change_qoq": -27135912,
+      "net_value_change_usd": "-3075394509",
+      "aggregate_flow": "net_selling"
+    },
+    {
+      "period_end": "2026-02-28",
+      "filed_through": "2026-04-14",
+      "holder_count": 10,
+      "total_shares": 2732754500,
+      "total_market_value_usd": "307743997727",
+      "net_shares_change_qoq": 41494942,
+      "net_value_change_usd": "4613867162",
+      "aggregate_flow": "net_buying"
+    }
+  ]
+}
