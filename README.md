@@ -2,7 +2,8 @@
 
 Research terminal for watchlist tickers: linked price/volume charts, fundamentals comparisons, institutional (13F-style) holdings, and insider (Form 4–style) activity. **Not trading signals** — context for your own decisions.
 
-**Roadmap & pending work:** [docs/ROADMAP.md](docs/ROADMAP.md)
+**Roadmap & pending work:** [docs/ROADMAP.md](docs/ROADMAP.md)  
+**OpenClaw / Oracle deploy brief:** [docs/OPENCLAW_BRIEFING.md](docs/OPENCLAW_BRIEFING.md)
 
 Stack: **FastAPI** (`apps/api`) + **Next.js 14** (`apps/web`) + SQLite (local) or Postgres (Docker).
 
