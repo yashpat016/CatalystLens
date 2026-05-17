@@ -263,3 +263,7 @@ PYTHONPATH=apps/api:. python scripts/seed_symbols.py
 ## 9. One-message summary for Telegram
 
 > CatalystLens: public repo github.com/yashpat016/CatalystLens — research UI for my watchlist. Clone on Oracle, create chmod 600 `.env` with Alpaca KEY+SECRET (not in git). `docker compose up -d`, health at :8000. UI :3000 via Tailscale only. Read README.md + docs/ROADMAP.md + docs/OPENCLAW_BRIEFING.md. TODO: live SEC Form 4, CIK seed, prod Next build. Do not expose or log API secrets.
+
+## 10. Future ideas
+
+Think like a pro trader/investor like @TheLongInvest on X.com or others like @investingwithac and think about what might also be useful here. I am trying to build a dashboard where investors or traders can come and view to make decisiions about investing/trading. Think about ways to improve this to add value but not clutter. Not sure if this helps, but maybe, say, for example, something like tracking Twitter accounts of Tom Lee for BMNR and Ethereum or CNBC or news channels, etc. What do you think deliberate and make educated decisions.
